@@ -1,0 +1,3 @@
+# atf-check is placed in /usr/libexec on other platforms
+# and /usr/lib on Debian
+sharedobject-in-library-directory-missing-soname

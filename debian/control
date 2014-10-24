@@ -24,7 +24,7 @@ Description: Automated Test Framework libraries
 Package: libatf-dev
 Section: libdevel
 Architecture: any
-Depends: libatf (= ${binary:Version}), ${misc:Depends}
+Depends: libatf (= ${binary:Version}), ${shlibs:Depends}, ${misc:Depends}
 Description: shared library for Lutok applications -- development files
  This package contains files required for developing test programs.
  that makes use of the ATF libraries.
