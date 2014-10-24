@@ -1,0 +1,5 @@
+libatf (0.21-1) UNRELEASED; urgency=low
+
+  * Initial release (Closes: #766576)
+
+ -- Craig Rodrigues <rodrigc@FreeBSD.org>  Thu, 23 Oct 2014 20:29:59 -0700

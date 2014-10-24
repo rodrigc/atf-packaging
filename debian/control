@@ -1,0 +1,32 @@
+Source: libatf
+Priority: optional
+Maintainer: Craig Rodrigues <rodrigc@FreeBSD.org>
+Build-Depends: debhelper (>= 9), autotools-dev
+Standards-Version: 3.9.5
+Section: libs
+Homepage: https://github.com/jmmv/atf
+#Vcs-Git: git://git.debian.org/collab-maint/libatf.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/libatf.git;a=summary
+
+
+Package: libatf
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Automated Test Framework libraries 
+ This package contains the Automated Test Framework (ATF).
+ .
+ ATF libraries provide an API for writing test programs.
+ The test programs can be written in C, C++, or POSIX shell.
+ ATF based test programs can be run manually, or via automation.
+ .
+ Kyua is the preferred execution engine for ATF test programs.
+
+Package: libatf-dev
+Section: libdevel
+Architecture: any
+Depends: libatf (= ${binary:Version}), ${misc:Depends}
+Description: shared library for Lutok applications -- development files
+ This package contains files required for developing test programs.
+ that makes use of the ATF libraries.
+ .
+ The test programs can be written in C, C++, or POSIX shell.
