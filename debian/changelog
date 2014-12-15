@@ -1,4 +1,4 @@
-libatf (0.21-1) UNRELEASED; urgency=low
+libatf (0.21-1) unstable; urgency=low
 
   * Initial release (Closes: #766576)
 
